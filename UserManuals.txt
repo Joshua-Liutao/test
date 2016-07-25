@@ -9,7 +9,7 @@ cd /d/softwares/Git/workspaces/test
 git remote -v 远程仓库地址
 
 3.
-git add . //将工作目录（working dir）中，得到更改的代码提交到暂存区（index）
+git add * [git add . ]  //将工作目录（working dir）中，得到更改的代码提交到暂存区（index）
 git commit -am '提交代码信息'   //改动已经提交到了 HEAD（本地仓库），但是还没到你的远端仓库
 git push 
 
