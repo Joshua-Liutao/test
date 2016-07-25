@@ -1,0 +1,24 @@
+在cmd下使用Github：
+1.
+ls 
+pwd 
+cd .git
+cd /d/softwares/Git/workspaces/test
+
+2.
+git remote -v 远程仓库地址
+
+3.
+git add . //将工作目录（working dir）中，得到更改的代码提交到暂存区（index）
+git commit -am '提交代码信息'   //改动已经提交到了 HEAD（本地仓库），但是还没到你的远端仓库
+git push 
+
+4.如果远端程序有变动，则提交不成功，此时应该先要将远程的项目检出到本地，然后才能开始提交本地工程
+git pull   //将改动提交到远端仓库
+
+5.
+git status 查看当前项目的状态
+
+6.
+cd .git/  
+less config  //进入本地配置文件
